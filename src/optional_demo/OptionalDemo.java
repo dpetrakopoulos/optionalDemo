@@ -4,7 +4,7 @@ import java.util.Optional;
 
 public class OptionalDemo {
 
-	static void execute() {
+	private static void execute() {
 		Optional<String> maybeString = Optional.of("foo");
 		//to test for empty uncomment next line
 		//Optional<String> maybeString = Optional.empty();
